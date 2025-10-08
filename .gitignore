@@ -1,5 +1,95 @@
+# --- Сборка ---
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+out/
+[Bb]uild/
+[Ll]og/
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# --- Конфигурационные файлы ---
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.csproj.user
+*.dbmdl
+*.cache
+*.bak
+*.swp
+*.tmp
+*.temp
+*.log
+
+# --- IDE ---
+.vs/
+.idea/
+*.DotSettings
+*.DotSettings.user
+*.code-workspace
+
+# --- Пакеты NuGet ---
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.nuget.props
+*.nuget.targets
+
+# --- Системные файлы ---
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# --- Rider / ReSharper / JetBrains ---
+*.sln.iml
+_ReSharper.Caches/
+resharper-host/
+
+# --- Профилировщики, тесты и прочее ---
+*.coverage
+*.coveragexml
+TestResult.xml
+*.VisualState.xml
+*.vsmdi
+*.testsettings
+*.runsettings
+TestResults/
+nunit-*.xml
+
+# --- Git ---
+*.orig
+
+# --- Публикация и деплой ---
+publish/
+*.publish.xml
+
+# --- Локальные данные приложения ---
+appsettings.Development.json
+.env
+.env.*
+
+# --- Документация / Артефакты ---
+*.docx
+*.pdf
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.bak
+*.old
+
+# --- Кэш и временные файлы ---
+/*.db
+*.sqlite
+*.sqlite3
+*.vscode
+.vscode/
